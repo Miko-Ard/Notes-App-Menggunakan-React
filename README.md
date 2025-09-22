@@ -1,12 +1,50 @@
-# React + Vite
+# 📝 Notes App - Dicoding Submission
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sebuah aplikasi catatan pribadi yang dibangun dengan **React + RESTful API**.  
+Dikembangkan untuk memenuhi submission kelas **Belajar Fundamental React** di Dicoding.  
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🔐 **Authentication**
+  - Registrasi & Login via API Dicoding
+  - Access token tersimpan di LocalStorage
+  - Logout dengan 1 klik
+- 📒 **Notes Management**
+  - Tambah catatan baru
+  - Lihat daftar catatan aktif
+  - Detail catatan
+  - Arsipkan / Batalkan arsip
+  - Hapus catatan
+- 🎨 **UI & Theme**
+  - Dark / Light mode (persisten)
+  - Clean & modern design (inspired by Claude AI)
+- 🌐 **Multi Language**
+  - Bahasa Indonesia 🇮🇩 / English 🇬🇧
+  - Persisten dengan LocalStorage
+- ⏳ **Loading Indicator**
+  - Indikasi saat fetch data berlangsung
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
+src/
+├─ components/ # Reusable components (Header, NoteItem, etc.)
+├─ pages/ # Pages (Login, Register, Home, Detail, AddNote)
+├─ contexts/ # Theme & Language Context
+├─ styles/ # Global styles (styles.css)
+├─ utils/ # API utilities
+├─ App.jsx
+└─ main.jsx
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone repo ini
+   ```bash
+   git clone https://github.com/username/notes-app.git
+   cd notes-app
+2. Install dependencies
+   ```bash
+   npm install
+3. Jalankan development server
+   ```bash
+   npm run dev
+4. Build untuk production
+   ```bash
+   npm run build
