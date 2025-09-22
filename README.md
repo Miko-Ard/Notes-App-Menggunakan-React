@@ -25,6 +25,18 @@ Dikembangkan untuk memenuhi submission kelas **Belajar Fundamental React** di Di
 - ⏳ **Loading Indicator**
   - Indikasi saat fetch data berlangsung
 
+### Halaman Depan
+
+![1](https://github.com/Miko-Ard/Notes-App-Menggunakan-React/blob/main/preview-%20(1).png)
+*Tampilan antarmuka yang bersih dan mudah digunakan untuk mendaftar atau masuk ke akun Anda.*
+### Notes List
+![2](https://github.com/Miko-Ard/Notes-App-Menggunakan-React/blob/main/preview-%20(3).png)
+*Lihat daftar catatan aktif Anda, tambahkan catatan baru, atau arsipkan catatan yang sudah selesai.*
+
+### Note Detail View
+![3](https://github.com/Miko-Ard/Notes-App-Menggunakan-React/blob/main/preview-%20(2).png)
+*Lihat isi lengkap dari catatan Anda, dengan opsi untuk mengedit atau menghapusnya.*
+
 ## 📂 Project Structure
 src/
 
@@ -57,3 +69,7 @@ src/
 4. Build untuk production
    ```bash
    npm run build
+
+   ---
+
+© 2024 - Miko-Ard
