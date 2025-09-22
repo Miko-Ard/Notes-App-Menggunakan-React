@@ -2,6 +2,8 @@
 
 Sebuah aplikasi catatan pribadi yang dibangun dengan **React + RESTful API**.  
 Dikembangkan untuk memenuhi submission kelas **Belajar Fundamental React** di Dicoding.  
+## Demo :
+- https://notesapp-demo.netlify.app/login
 
 ## ✨ Features
 - 🔐 **Authentication**
