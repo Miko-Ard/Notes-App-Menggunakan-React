@@ -25,12 +25,19 @@ Dikembangkan untuk memenuhi submission kelas **Belajar Fundamental React** di Di
 
 ## 📂 Project Structure
 src/
+
 ├─ components/ # Reusable components (Header, NoteItem, etc.)
+
 ├─ pages/ # Pages (Login, Register, Home, Detail, AddNote)
+
 ├─ contexts/ # Theme & Language Context
+
 ├─ styles/ # Global styles (styles.css)
+
 ├─ utils/ # API utilities
+
 ├─ App.jsx
+
 └─ main.jsx
 
 ## 🚀 Getting Started
